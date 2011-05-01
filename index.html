@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Sortable - Handle empty lists</title>
+	<link rel="stylesheet" href="stylesheets/ui-lightness/jquery-ui-1.8.12.custom.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="javascripts/json2.js"></script>
+	<script src="javascripts/jquery-1.5.1.js"></script>
+	<script src="javascripts/ui/jquery.ui.core.js"></script>
+	<script src="javascripts/ui/jquery.ui.widget.js"></script>
+	<script src="javascripts/ui/jquery.ui.mouse.js"></script>
+	<script src="javascripts/ui/jquery.ui.draggable.js"></script>
+	<script src="javascripts/ui/jquery.ui.sortable.js"></script>
+	<script src="javascripts/output_template.js"></script>
+	<script src="javascripts/application.js"></script>
+</head>
+<body>
+	<header>
+		<h1>GridMagazine JSON tool</h1>
+	</header>
+	
+	<ul class="draggable">
+		<li id="draggable" class="ui-state-highlight">Drag me down</li>
+	</ul>
+	
+	<section id="lists">
+		<ul class="sortable">
+			<li class="ui-state-highlight">Can be dropped..</li>
+			<li class="ui-state-highlight">..on an empty list</li>
+			<li class="ui-state-highlight">Item 3</li>
+			<li class="ui-state-highlight">Item 4</li>
+			<li class="ui-state-highlight">Item 5</li>
+		</ul>
+
+		<ul class="sortable">
+			<li class="ui-state-highlight">Cannot be dropped..</li>
+			<li class="ui-state-highlight">..on an empty list</li>
+			<li class="ui-state-highlight">Item 3</li>
+			<li class="ui-state-highlight">Item 4</li>
+			<li class="ui-state-highlight">Item 5</li>
+		</ul>
+
+		<ul class="sortable"></ul>
+	</section>
+	
+	<section id="output">
+		<textarea rows="10" cols="50"></textarea>
+	</section>
+	
+	<footer>
+		<p>Copyright ® 2011 Giovanni Cappellotto</p>
+	</footer>
+</body>
+</html>

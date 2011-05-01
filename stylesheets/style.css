@@ -1,0 +1,47 @@
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+header {}
+
+footer {
+	font-size: 12px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 5px;
+	padding: 5px;
+	width: 150px;
+	cursor: move;
+}
+
+ul.sortable {
+	width: 172px;
+	float: left;
+	margin-right: 10px;
+	background: #eee;
+	padding: 5px;
+}
+
+ul.draggable {
+	width: 172px;
+	background: #eee;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+#lists {
+	overflow: hidden;
+}
+
+#output {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
